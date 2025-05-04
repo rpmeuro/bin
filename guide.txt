@@ -1,0 +1,8 @@
+Hadoop namenode -format
+cd sbin
+./start
+jps
+httpslocalhost
+Hadoop fs -mkdir 
+Hadoop fs -put filename hdfspath
+Hadoop jar word.jar com.mapreduce.wc.WordCount /user/Hadoop/input /user/Hadoop/output
